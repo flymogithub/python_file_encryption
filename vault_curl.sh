@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VAULT_ADDR="https://vault.local:8200"
-TOKEN="hvs.0SID2KZrONaNyWPsjYzgFSBB"
+TOKEN=""
 CERT_FILE="/etc/vault-client/mike/mike.pem"
 CA_CERT="/etc/vault-client/mike/vault-server-ca.pem"
 
