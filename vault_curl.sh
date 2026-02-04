@@ -1,8 +1,8 @@
 #!/bin/bash
 
-VAULT_ADDR="https://vault.local:8200"
+VAULT_ADDR=""
 TOKEN=""
-CERT_FILE="/etc/vault-client/mike/mike.pem"
+CERT_FILE="/etc/vault-client/mike/<file>.pem"
 CA_CERT="/etc/vault-client/mike/vault-server-ca.pem"
 
 jq -Rs --arg policies "encryption" --arg name "mike" \
